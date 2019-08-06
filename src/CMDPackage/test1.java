@@ -23,6 +23,7 @@ public class test1
 {
     driver.get("http://www.seleniumhq.org");
     driver.manage().window().maximize();
+    System.out.println("URL is:"+driver.getCurrentUrl());
     driver.quit();
 }
     }
